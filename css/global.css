@@ -1,0 +1,117 @@
+/* --------------------------------
+-- Global CSS For All Template ----
+----------------------------------- */
+
+/* ---- a ---- */
+/* ---- b ---- */
+body{
+	letter-spacing: 1.5px;
+}
+.bg-norepeat{
+	background-repeat:no-repeat;
+}
+.bg-size-cover{
+	background-size:cover;
+}
+.bg-position-center{
+	background-position:center;
+}
+.bg-attachment-fixed{
+	background-attachment:fixed;
+}
+.bg-gray-50{
+	background-color: #6c757d87!important;
+}
+.bg-transparent-noimportant {
+    background-color: transparent;
+}
+.placeholder-color::placeholder{
+	color: dark;
+}
+/* ---- c ---- */
+
+section{
+	padding-top:80px;
+	padding-bottom:75px;
+}
+.line-height-175{
+	line-height: 1.75;
+}
+.top-auto{
+	top:auto;
+}
+.left-auto{
+	left:auto;
+}
+.right-0{
+	right:0;
+}
+.bottom-0{
+	top: 51%;
+}
+.card-img-overlay-hover{
+	visibility:hidden;
+	opacity:0;
+	transition:all .7s;
+}
+.card:hover>.card-img-overlay-hover{
+	visibility:visible;
+	opacity:1;
+}
+.bg-black-25{
+	background-color:#00000042;
+}
+.bg-black{
+	background-color: #1B1929;
+	color: #ffffff;
+}
+.decoration-line{
+  border-left: 4px solid #D7D7D7;
+  height: 77px;
+  position: absolute;
+}
+.text-decoration-none{
+	text-decoration: none;
+}
+.w-43{
+	width: 43%;
+}
+.hover-primary:hover{
+	color: #6689ff!important;
+	cursor: pointer;
+	transition: .4s;
+}
+.placeholder-color::placeholder{
+	color: #1B1B1B;
+}
+.font-weight-600{
+	font-weight: 600;
+}
+.z-index-1{
+	z-index: 1;
+}
+.box{
+	transition: box-shadow .3s;
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.border-white{
+	border: 1px solid #ffffff;
+}
+.text-transparent{
+	color: rgba(255, 255, 255, 0.03);
+}
+#upper{
+	background-color: #6689FF;
+}
+#upper:hover{
+	background-color: #111111;
+}
+.card-maxwidth-355{
+	max-width: 355px;
+}
+.card-height-width{
+	max-height: 400px;
+	max-width: 400px;
+}
