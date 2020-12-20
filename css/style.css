@@ -24,11 +24,6 @@
 #main-menu li a.active{
 	border-bottom: 3px solid #6689ff;
 }
-/* === HOME PART === */
-#home{
-	background-image:url(../images/bg1.jpg);
-	margin-top: 90px;
-}
 /* === SERVICE PART === */
 #service hr{
 	width: 30%;
@@ -229,11 +224,11 @@ footer .icon-hover li a:hover,#share-menu li a:hover{
 	  width: 83%;
 	  margin: 0 auto;
 	}
-	.bottom-0{
-		top: 62%;
+	#home h1{
+		font-size: 3rem;
 	}
 }
-@media (max-width:992px){
+@media (max-width:991px){
 	#main-menu li a:hover{
 		background-color: #6689FF;
 		color: #ffffff!important;
@@ -242,33 +237,12 @@ footer .icon-hover li a:hover,#share-menu li a:hover{
 		background-color: #6689ff;
 		color: #ffffff!important;
 	}
-	.bottom-0{
-		top: 50%;
-	}
-}
-@media (max-width:768px){
-	#home h1{
-		font-size: 3rem;
-	}
-	.bottom-0{
-		top: 33%;
-	}
 }
 @media (max-width:576px){
-	.bottom-0{
-		top: 65%;
+	#home h1{
+		font-size: 2rem;
 	}
 }
-@media (max-width:500px){
-	.bottom-0{
-		top: 58%;
-	}
-}
-
-
-
-
-
 
 
 
