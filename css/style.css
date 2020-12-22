@@ -53,18 +53,15 @@
 #company .border-white:hover{
 	border: 0;
 }
-.img-overlay{
-	height: 82%;
-	width: 75%;
-	top: 20px;
-	left: 12.5%;
+.projects .card-img-overlay{
 	background-color: #ffffff;
+	margin: 18px;
 	opacity: 0;
-	transition: .3s;
+	transition: .4s;
 }
-.project-item:hover>.img-overlay{
+.project-item .card:hover .card-img-overlay{
 	opacity: 1;
-	transition: .3s;
+	transition: .4s;
 }
 /* === LINE PART === */
 .vertical-line{
